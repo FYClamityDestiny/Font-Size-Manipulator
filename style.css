@@ -1,0 +1,36 @@
+.btn-success{
+font-size:28px;
+}
+#note{
+    font-size:16px;
+font:small-caps ;
+}
+#footer{
+position:fixed;
+bottom:0;
+text-align: center ;
+width:100%;
+background-color:rgb(198, 198, 198);
+font-size: 24;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 6px;
+    margin-bottom: 2px;;
+}
+canvas{
+animation-name: canvas;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+border-radius: 8px;
+border:white 4px solid;
+}
+@keyframes canvas{
+from{
+box-shadow:  3px 3px 600px rgb(79, 126, 236);
+}
+to{
+box-shadow:3px 3px 600px rgb(59, 13, 210)
+}
+}
